@@ -8,7 +8,7 @@ module when files depend on each other in a cycle. So the tree mirrors the origi
 
 > **Generated — do not edit.** Regenerate from a c2das checkout with
 > `python3 scripts/export_dasdoom.py <dasDOOM checkout>`.
-> This tree: c2das `62e587f72`, doomgeneric `dcb7a8dbc7a16ce3dda29382ac9aae9d77d21284`. Details are in
+> This tree: c2das `aac7bd367`, doomgeneric `dcb7a8dbc7a16ce3dda29382ac9aae9d77d21284`. Details are in
 > [`GENERATED.json`](GENERATED.json).
 
 ## Layout
@@ -17,7 +17,7 @@ module when files depend on each other in a cycle. So the tree mirrors the origi
 |---|---|
 | `doom/` | The timedemo program under `--libc std`, `--module-layout source`: 31 modules (one per C file, or a cluster of mutually dependent files), 54 `.das.inc` fragments, and the runtime `c2da_runtime.das`. The entry `doom_entry.das` plays `-timedemo demo1` and prints one hash per frame. |
 | `doom/run.sh` | Runs the program on `doom1.wad` and compares the first 70 frame hashes with `expected_frames.txt`, the output of the C build. |
-| `eden/` | The interactive build for the EdenSpark editor: `doom_eden_play_all.das` (engine, platform layer and sound mixer in one module), the hand-written host `c2das_doom_player.das`, and `main.das.example`. |
+| `eden/` | The interactive build for the EdenSpark editor, per file like `doom/`: the engine with the platform layer and sound mixer (the harness files join the cluster module `am_map_cluster.das`, which defines the `dge_*` host API), the runtime `c2da_runtime.das`, the hand-written host `c2das_doom_player.das`, and `main.das.example`. |
 | `harness/` | The c2das-authored C entries and platform layers that the translations include. |
 | `tools/get_wad.sh` | Downloads the shareware `doom1.wad` and checks its SHA-1. |
 
@@ -86,9 +86,6 @@ Sound effects play through one stereo stream at 11 025 Hz.
 - **Music.** The game runs with `-nomusic`.
 - **Published builds.** Only the editor is tested. An exported EdenSpark build has stricter
   rules than the editor.
-- **Per-file layout for the EdenSpark build.** The play harness is one C translation unit:
-  `dg_eden_play.c` calls file-static functions of `dg_eden_sound.c`. So `eden/` is a
-  single module, while `doom/` is per file.
 
 ## License
 

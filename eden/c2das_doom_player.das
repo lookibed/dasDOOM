@@ -5,7 +5,7 @@ module c2das_doom_player shared public
 
 require engine.core
 require modules/dasdoom/am_map_cluster
-require modules/dasdoom/c2da_runtime
+require modules/dasdoom/dasdoom_runtime
 require strings
 require math
 

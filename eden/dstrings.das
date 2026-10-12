@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module dstrings public
 
-require c2da_runtime
+require dasdoom_runtime
 require daslib/math_bits
 
 // This unit's static data, at heap offset 300224.

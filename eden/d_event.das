@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module d_event public
 
-require c2da_runtime
+require dasdoom_runtime
 require daslib/math_bits
 [sideeffects]
 def private c2da___bswap_16(var c2da___bsx : uint16) : uint16 {

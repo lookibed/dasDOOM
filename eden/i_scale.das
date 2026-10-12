@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module i_scale public
 
-require c2da_runtime
+require dasdoom_runtime
 require i_system_cluster
 require m_argv
 require strings

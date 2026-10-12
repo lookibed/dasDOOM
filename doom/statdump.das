@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module statdump public
 
-require c2da_runtime
+require dasdoom_runtime
 require m_argv
 var private c2da_str_0 : array<int8> = [int8(45), int8(115), int8(116), int8(97), int8(116), int8(100), int8(117), int8(109), int8(112), int8(0)]
 

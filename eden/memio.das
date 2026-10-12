@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module memio public
 
-require c2da_runtime
+require dasdoom_runtime
 require i_system_cluster
 require strings
 require daslib/math_bits

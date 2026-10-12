@@ -2,7 +2,7 @@ options gen2
 options solid_context = true
 options stack = 4194304
 
-require c2da_runtime
+require dasdoom_runtime
 require am_map_cluster
 require strings
 require daslib/fio

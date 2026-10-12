@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module r_sky public
 
-require c2da_runtime
+require dasdoom_runtime
 var skytexture : int
 
 var skytexturemid : int

@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module i_cdmus public
 
-require c2da_runtime
+require dasdoom_runtime
 require daslib/math_bits
 var cd_Error : int
 

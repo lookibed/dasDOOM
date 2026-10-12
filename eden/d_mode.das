@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module d_mode public
 
-require c2da_runtime
+require dasdoom_runtime
 require daslib/math_bits
 [export, sideeffects]
 def D_ValidGameMode(var mission : uint; var mode : uint) : uint {

@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module d_event public
 
-require c2da_runtime
+require dasdoom_runtime
 [sideeffects]
 def private c2da___bswap_16(var c2da___bsx : uint16) : uint16 {
     return uint16(int(c2da___bsx) >> 8 & 255 | (int(c2da___bsx) & 255) << 8)

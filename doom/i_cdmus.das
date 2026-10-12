@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module i_cdmus public
 
-require c2da_runtime
+require dasdoom_runtime
 var cd_Error : int
 
 [export, sideeffects]

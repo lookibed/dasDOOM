@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module m_cheat public
 
-require c2da_runtime
+require dasdoom_runtime
 require strings
 require daslib/fio
 [export, sideeffects]

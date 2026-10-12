@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module dstrings public
 
-require c2da_runtime
+require dasdoom_runtime
 var private c2da_str_0 : array<int8> = [int8(97), int8(114), int8(101), int8(32), int8(121), int8(111), int8(117), int8(32), int8(115), int8(117), int8(114), int8(101), int8(32), int8(121), int8(111), int8(117), int8(32), int8(119), int8(97), int8(110), int8(116), int8(32), int8(116), int8(111), int8(10), int8(113), int8(117), int8(105), int8(116), int8(32), int8(116), int8(104), int8(105), int8(115), int8(32), int8(103), int8(114), int8(101), int8(97), int8(116), int8(32), int8(103), int8(97), int8(109), int8(101), int8(63), int8(0)]
 
 var private c2da_str_1 : array<int8> = [int8(112), int8(108), int8(101), int8(97), int8(115), int8(101), int8(32), int8(100), int8(111), int8(110), int8(39), int8(116), int8(32), int8(108), int8(101), int8(97), int8(118), int8(101), int8(44), int8(32), int8(116), int8(104), int8(101), int8(114), int8(101), int8(39), int8(115), int8(32), int8(109), int8(111), int8(114), int8(101), int8(10), int8(100), int8(101), int8(109), int8(111), int8(110), int8(115), int8(32), int8(116), int8(111), int8(32), int8(116), int8(111), int8(97), int8(115), int8(116), int8(33), int8(0)]

@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module m_bbox public
 
-require c2da_runtime
+require dasdoom_runtime
 [export, sideeffects]
 def M_ClearBox(var box : int?) {
     unsafe(box[3]) = -2147483647 - 1

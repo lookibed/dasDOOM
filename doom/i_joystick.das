@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module i_joystick public
 
-require c2da_runtime
+require dasdoom_runtime
 require i_system_cluster
 require m_config
 var private c2da_str_0 : array<int8> = [int8(117), int8(115), int8(101), int8(95), int8(106), int8(111), int8(121), int8(115), int8(116), int8(105), int8(99), int8(107), int8(0)]

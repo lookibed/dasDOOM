@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module m_cheat public
 
-require c2da_runtime
+require dasdoom_runtime
 require daslib/math_bits
 [export, sideeffects]
 def cht_CheckCheat(var cht : int; var key : int8) : int {

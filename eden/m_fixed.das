@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module m_fixed public
 
-require c2da_runtime
+require dasdoom_runtime
 require strings
 require daslib/math_bits
 [sideeffects]

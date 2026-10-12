@@ -1,7 +1,7 @@
 options gen2
 options solid_context = true
 options stack = 4194304
-module c2da_runtime public
+module dasdoom_runtime public
 
 require strings
 require daslib/fio

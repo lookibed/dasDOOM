@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module statdump public
 
-require c2da_runtime
+require dasdoom_runtime
 require m_argv
 require daslib/math_bits
 [sideeffects]

@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module d_mode public
 
-require c2da_runtime
+require dasdoom_runtime
 var private c2da_str_0 : array<int8> = [int8(110), int8(111), int8(110), int8(101), int8(0)]
 
 var private c2da_str_1 : array<int8> = [int8(100), int8(111), int8(111), int8(109), int8(0)]

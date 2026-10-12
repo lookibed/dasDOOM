@@ -1,11 +1,11 @@
 {
   "generator": "c2das scripts/export_dasdoom.py",
   "c2das_repository": "https://github.com/lookibed/c2das",
-  "c2das_commit": "aac7bd3670c3f8b2088b4d588aaec5342e0efc85",
+  "c2das_commit": "18cb5004016e6dd20ecc1790fb683438991b91ea",
   "c2das_dirty": false,
   "doomgeneric_repository": "https://github.com/ozkl/doomgeneric",
   "doomgeneric_commit": "dcb7a8dbc7a16ce3dda29382ac9aae9d77d21284",
-  "generated_at": "2026-10-12T01:39:54+03:00",
+  "generated_at": "2026-10-12T03:54:53+03:00",
   "translations": {
     "doom": {
       "case": "doomgeneric-demo1-std-source",
@@ -116,12 +116,13 @@
         "doom",
         "--module-layout",
         "source",
+        "--runtime-module",
+        "dasdoom_runtime",
         "compile_commands.json"
       ],
       "files": [
         "am_map.das.inc",
         "am_map_cluster.das",
-        "c2da_runtime.das",
         "d_event.das",
         "d_items.das",
         "d_iwad.das",
@@ -129,6 +130,7 @@
         "d_main.das.inc",
         "d_mode.das",
         "d_net.das.inc",
+        "dasdoom_runtime.das",
         "dg_platform.das.inc",
         "doom_entry.das",
         "doomdef.das",
@@ -332,12 +334,13 @@
         "eden",
         "--module-layout",
         "source",
+        "--runtime-module",
+        "dasdoom_runtime",
         "compile_commands.json"
       ],
       "files": [
         "am_map.das.inc",
         "am_map_cluster.das",
-        "c2da_runtime.das",
         "d_event.das",
         "d_items.das",
         "d_iwad.das",
@@ -345,6 +348,7 @@
         "d_main.das.inc",
         "d_mode.das",
         "d_net.das.inc",
+        "dasdoom_runtime.das",
         "dg_eden_play.das.inc",
         "dg_eden_sound.das.inc",
         "doomdef.das",

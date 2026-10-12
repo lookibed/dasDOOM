@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module m_controls public
 
-require c2da_runtime
+require dasdoom_runtime
 require i_system_cluster
 require m_config
 var private c2da_str_0 : array<int8> = [int8(107), int8(101), int8(121), int8(95), int8(114), int8(105), int8(103), int8(104), int8(116), int8(0)]

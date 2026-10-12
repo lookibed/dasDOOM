@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module w_file public
 
-require c2da_runtime
+require dasdoom_runtime
 require m_argv
 require w_file_stdc
 var private c2da_str_0 : array<int8> = [int8(45), int8(109), int8(109), int8(97), int8(112), int8(0)]

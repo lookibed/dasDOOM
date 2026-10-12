@@ -3,7 +3,7 @@ options solid_context = true
 options stack = 4194304
 module w_file_stdc public
 
-require c2da_runtime
+require dasdoom_runtime
 require i_system_cluster
 require strings
 require daslib/fio

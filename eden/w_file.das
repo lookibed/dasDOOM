@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module w_file public
 
-require c2da_runtime
+require dasdoom_runtime
 require m_argv
 require w_file_stdc
 require daslib/math_bits

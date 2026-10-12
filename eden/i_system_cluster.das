@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module i_system_cluster public
 
-require c2da_runtime
+require dasdoom_runtime
 require daslib/math_bits
 require m_argv
 require strings

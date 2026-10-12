@@ -2,7 +2,7 @@ options gen2
 options stack = 4194304
 module tables public
 
-require c2da_runtime
+require dasdoom_runtime
 require daslib/math_bits
 var finecosine : int = 257920 + 8192 / 4 * 4
 
